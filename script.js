@@ -20,7 +20,7 @@ form.addEventListener('submit' , function(e){
   let newRow = document.createElement('tr');
   let clearBtn = document.createElement('button');
   clearBtn.innerHTML='&#10060';
-  clearBtn.setAttribute("id", "clearBtn") ;
+  clearBtn.setAttribute("id", "delete") ;
   cell4.appendChild(clearBtn);
 
   newRow.appendChild(cell1);
